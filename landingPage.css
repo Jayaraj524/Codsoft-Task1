@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: linear-gradient(50deg,#ffa500,#FFC0CB);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+    position: sticky;
+    overflow:hidden;
+    height: 50px;
+    width: 100%;
+    
+}
+i{
+    padding: 10px;
+}
+
+.navlinks{
+    margin-left:80px;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.callEmail{
+    margin-top: 20px;
+}
+button{
+    margin: 2px solid white;
+    border: white;
+    border-radius: 15px;
+    background-color: white; 
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+.read{
+    background:linear-gradient(50deg,);
+    background: linear-gradient(50deg,#ffa500,#FFC0CB);
+
+}
+.read:hover{
+    background-color: greenyellow;
+}
+button:hover{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+.nav1{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 80px;
+    display: flex;
+    }
+    .landingpage{
+        margin-top: 15px;
+    }
+.nav1links{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+a{
+    padding:15px;
+}
+a:hover{
+    background-color: yellow;
+    transition:0.5s
+}
+.search-bar{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top:15px ;
+    
+}
+.search-bar:hover{
+    background-color: grey;
+}
+.img-1{
+    position: relative;
+    margin-bottom:  -500px;
+    padding:0px;
+}
+.img-1 img{
+    margin-top: 0px;
+    margin-bottom: 500px;
+    height: 700px;
+    width: 100%;
+    display: block;
+}
+.img-text{
+    color:#fff;
+    text-shadow: 450px 10px rgba(255,255,255,0.5);
+    
+    
+}
+.img-1 .img-text{
+    position: absolute;
+    padding-bottom: 20px;
+    top:60%;
+    left:10%;
+    
+}
+.middle-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg,#ffa500,#FFC0CB);
+    color: #fff;
+    padding: 0;
+    
+}
+#p1{
+    padding:10px;
+    margin:10px;
+
+}
+#p2{
+    padding:10px;
+    margin:10px;
+    
+}
+#p3{
+    padding:10px;
+    margin:10px;
+    
+}
+.fa-rocket{
+    position:relative;
+    right:50px;
+    top:45px;
+    }
+.fa-headphones{
+        position:relative;
+        right:50px;
+        top:45px;
+        }
+.fa-clock{
+    position:relative;
+     right:50px;
+     top:45px;
+            
+    }
+    .About-us{
+        display: ;
+    }
+#p4{
+    text-align: justify;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: -100px;
+    
+    
+}
+.men{
+    height: 300px;
+    width: auto;
+    margin-bottom: -150px;
+    float: right ;
+    transform: scaleX(-1);
+    position:relative;
+    top:-100px;
+    left:150px
+    
+    
+
+    }
+#About-us1{
+    display: flex;
+    position:relative
+}
+
+
+.Testimonials-cards{
+    display:flex;
+}
+.Testimonials-cards img{
+    height:300px;
+    width:300px;
+    display:flex;
+    margin-top:90px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+
+.Testimonials-cards{
+    position: relative;
+    margin-bottom: -90px;
+
+}
+.footer{
+    display: flex;
+    
+}
+.fa-user{
+   
+    background-color:#ffa500;
+    border-radius: 50%;
+    padding:5px;
+    right: 20px;
+    margin:10px;
+
+}
+#user{
+    width:200px;
+    height: 50px;
+    background-color: #FFC0CB;
+    border: 2px solid #fff;
+    padding:0;
+    display: flex;
+    right:20px;   
+    top:20px;
+    margin-right:400px;
+    margin-left:150px;
+    margin-bottom: 200px;
+    
+}
+.fa-pen{
+   
+    background-color:#ffa500;
+    border-radius: 50%;
+    padding:5px;
+    right: 20px;
+    margin:10px;
+
+}
+#pen{
+    width:200px;
+    height: 50px;
+    background-color: #FFC0CB;
+    border: 2px solid #fff;
+    padding:0;
+    display: flex;
+    right:20px;   
+    top:20px;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+   
+}
+.fa-dollar-sign{
+   
+    background-color:#ffa500;
+    border-radius: 50%;
+    padding:5px;
+    right: 20px;
+    margin:10px;
+
+}
+#sign{
+    width:200px;
+    height: 50px;
+    background-color: #FFC0CB;
+    border: 2px solid #fff;
+    padding:0;
+    display: flex;
+    right:20px;   
+    top:20px;
+}
